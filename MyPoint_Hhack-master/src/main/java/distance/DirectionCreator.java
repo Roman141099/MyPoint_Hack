@@ -23,7 +23,7 @@ public class DirectionCreator {
     * 6. mode
     * 7. api key
     * */
-    static final String APIKEY = "AIzaSyCeIxuyZnQ2Ck3XbauOEZXLwIpyOI1Thn8";
+    static final String APIKEY = "APIGOOGLE";
     static String via = "&waypoints=via:53.186506%2C50.126170";
     static String URL_QUERY = "https://maps.googleapis.com/maps/api/directions/json?origin=53.210568%2C50.234922&destination=" +
             "53.209033%2C50.124874&language=ru" + via + "&units=metric&mode=" + TRANSIT + "&key=" + APIKEY;
