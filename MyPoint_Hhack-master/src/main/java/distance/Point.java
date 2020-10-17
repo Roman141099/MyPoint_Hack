@@ -14,7 +14,7 @@ import java.util.Optional;
 
 public class Point {
     private static final String GEO_REQ = "https://maps.googleapis.com/maps/api/geocode/json?address=";
-    private static final String API_KEY = "AIzaSyCeIxuyZnQ2Ck3XbauOEZXLwIpyOI1Thn8";
+    private static final String API_KEY = "APIGOOGLE";
     private double lat;
     private double lon;
     private String placeName;
